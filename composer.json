@@ -1,0 +1,22 @@
+{
+    "name": "lxclass/phpautoword",
+    "description": "\"一个可以自动生成网页文档的PHP扩展\"",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixiang",
+            "email": "945559567@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Autoword\\": "src/"
+        },
+        "files": [
+          "src/route.php"
+        ]
+      }
+}

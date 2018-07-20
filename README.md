@@ -6,15 +6,17 @@
 composer require "lxclass/phpautoword"
 ```
 或者修改composer.json文件
+```
 // 在require里加上
 "lxclass/phpautoword": "0.*"
-
+```
 2. 使用方法
 
 在 application/extra 目录下创建文件名为 documents_v1.php 的配置文件。 
-
-//documents_v1.php非固定文件可在类包lxclass\phpautoword\src\Documents.php 文件中自动加载函数 $this->config = Config::get('documents_v1'); 内修改
-
+```
+//documents_v1.php非固定文件可在类包lxclass\phpautoword\src\Documents.php 文件
+  自动加载函数 $this->config = Config::get('documents_v1'); 内修改
+```
 配置文件内容如下：
 ```
 <?php

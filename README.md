@@ -34,7 +34,7 @@ return [
 
 **重点:** class 为将要生成文档的类(带命名空间)
 
-2. 示例：
+3. 示例：
 
 | 注释参数 | 含义 | 说明 |
 | - | - | - |
@@ -86,4 +86,5 @@ class Handle extends Controller {
 
 编辑好配置文件之后 直接打开浏览器访问 http://localhost/api/documents 即可看到文档页。
 
-未完待续
+4. 展示样式:
+

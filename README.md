@@ -23,14 +23,14 @@ composer require "lxclass/phpautoword"
 return [
     'title' => "XXXX公司",  
     'description' => '"XXXX" | APi接口文档等等。',
-    'template' => 'apple', // 苹果绿:apple 葡萄紫:grape
+    'template' => 'grape', // 苹果绿:apple 葡萄紫:grape
     'class' => [
-        'app\index\controller\Article'
+        'app\sms\controller\Handle'
         // ...
     ],
 ];
 ```
-其中 template 为模板类型，暂时提供两种模板风格，分别为苹果绿和葡萄紫，虽然两套模板都是巨丑无比。所以使用的过程中也可以自己开发模板。
+其中 template 为模板类型，暂时提供两种模板风格，分别为苹果绿(未完善)和葡萄紫，虽然两套模板都是巨丑无比。所以使用的过程中也可以自己开发模板。
 
 **重点:** class 为将要生成文档的类(带命名空间)
 

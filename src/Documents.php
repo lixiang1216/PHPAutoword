@@ -28,7 +28,7 @@ class Documents
         $this->request = Request::instance();
         $this->template['view_path'] = __DIR__.DS.'view'.DS;
         $this->view = View::instance($this->template,[]);
-        $this->config = Config::get('documents_v4');
+        $this->config = Config::get('documents_v1');
     }
 
     /**

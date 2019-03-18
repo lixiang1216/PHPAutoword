@@ -84,7 +84,7 @@ class Handle extends Controller {
     }
 ```
 
-编辑好配置文件之后 直接打开浏览器访问 http://localhost/api/documents 即可看到文档页。
+编辑好配置文件之后 直接打开浏览器访问 http://localhost/api/doc 即可看到文档页。
 
 4. 展示样式:
 ![image](https://github.com/lixiang1216/PHPAutoword/blob/master/screenshots/g-1.png)

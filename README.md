@@ -23,7 +23,7 @@ composer require "lxclass/phpautoword"
 return [
     'title' => "XXXX公司",  
     'description' => '"XXXX" | APi接口文档等等。',
-    'apiurl' => 'http://xxx/xxx/', //API接口地址,
+    'apiurl' => 'http://xxx/xxx/', //API接口地址
     'version' => '1.0', //版本号
     'author' => 'XXX', //作者
     'template' => 'grape', // 苹果绿:apple 葡萄紫:grape
